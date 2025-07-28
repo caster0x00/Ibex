@@ -7,10 +7,11 @@ Interactive IPv6 toolkit for pentesting IPv6 networks
 # What is Ibex?
 
 Ibex - is an interactive IPv6 toolkit for attacking IPv6 networks. It performs attacks using RA Spoofing and RDNSS Spoofing, and also features automatic NAT64/DNS64 configuration and is equipped with auto-tuning and intelligent CLI navigation.
-
-> Author: Magama Bazarov, <magamabazarov@mailbox.org>
-> Alias: Caster
-> Version: 1.0
+```
+Author: Magama Bazarov, <magamabazarov@mailbox.org>
+Alias: Caster
+Version: 1.0
+```
 
 In many modern enterprise networks, IPv6 is enabled by default but overlooked in terms of security. Ibex leverages this blind spot to perform silent, protocol-native MITM attacks using standards-compliant mechanisms such as SLAAC and RDNSS spoofing.
 
