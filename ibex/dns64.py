@@ -16,6 +16,19 @@ _dns64_state = None
 def ensure_directories():
     for path in [BASE_DIR, LOG_DIR, RUN_DIR]:
         os.makedirs(path, exist_ok=True)
+        os.chown(path, 0, 0)
+        os.chmod(path, 0o755)
+
+    # Ensure /var/cache/bind exists and has correct perms
+    bind_cache = "/var/cache/bind"
+    if not os.path.exists(bind_cache):
+        os.makedirs(bind_cache, exist_ok=True)
+        print(Fore.YELLOW + "[*] /var/cache/bind created (required by BIND9)")
+    try:
+        os.chown(bind_cache, 0, 0)
+        os.chmod(bind_cache, 0o755)
+    except PermissionError:
+        print(Fore.RED + "[!] Could not set ownership on /var/cache/bind (permission denied)")
 
 def cleanup_directories():
     for path in [BASE_DIR, RUN_DIR]:
