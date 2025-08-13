@@ -39,7 +39,7 @@ def banner():
     print("    " + Fore.YELLOW + "Author: " + Style.RESET_ALL + "Magama Bazarov, <magamabazarov@mailbox.org>")
     print("    " + Fore.YELLOW + "Alias: " + Style.RESET_ALL + "Caster")
     print("    " + Fore.YELLOW + "Version: " + Style.RESET_ALL + "1.0")
-    print("    " + Fore.YELLOW + "Documentation & Usage: " + Style.RESET_ALL + "https://github.com/casterbyte/Ibex\n")
+    print("    " + Fore.YELLOW + "Documentation & Usage: " + Style.RESET_ALL + "https://github.com/caster0x00/Ibex\n")
     print("    " + Fore.MAGENTA + "❝The snake which cannot cast its skin has to die❞")
     print("    " + Fore.MAGENTA + "— Friedrich Nietzsche, 1883\n" + Style.RESET_ALL)
 
@@ -60,7 +60,7 @@ class IbexShell(Cmd):
 
     def do_about(self, arg):
         print("Ibex by Magama Bazarov aka Caster")
-        print("GitHub: https://github.com/casterbyte/Ibex")
+        print("GitHub: https://github.com/caster0x00/Ibex")
         print("Version: 1.0")
 
     def do_deps(self, arg):

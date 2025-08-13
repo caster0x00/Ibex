@@ -131,7 +131,7 @@ Each mode launches a dedicated interactive sub-shell:
 ```bash
 # Clone the repository
 
-git clone https://github.com/casterbyte/Ibex.git
+git clone https://github.com/caster0x00/Ibex.git
 cd Ibex
 
 # Install Python package
@@ -194,7 +194,7 @@ This will launch the interactive shell:
     Author: Magama Bazarov, <magamabazarov@mailbox.org>
     Alias: Caster
     Version: 1.0
-    Documentation & Usage: https://github.com/casterbyte/Ibex
+    Documentation & Usage: https://github.com/caster0x00/Ibex
 
     ❝The snake which cannot cast its skin has to die❞
     — Friedrich Nietzsche, 1883

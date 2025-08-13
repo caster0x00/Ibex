@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="ibex",
     version="1.0",
-    url="https://github.com/casterbyte/Ibex",
+    url="https://github.com/caster0x00/Ibex",
     author="Magama Bazarov",
     author_email="magamabazarov@mailbox.org",
     description="Pwning IPv6 Networks",
