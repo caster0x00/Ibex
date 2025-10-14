@@ -36,7 +36,7 @@ def banner():
     banner_text = "    " + banner_text.replace("\n", "\n    ")
     print(banner_text)
     print("    " + Fore.YELLOW + "Ibex: " + Style.RESET_ALL + "Pwning IPv6 Networks")
-    print("    " + Fore.YELLOW + "Author: " + Style.RESET_ALL + "Magama Bazarov, <magamabazarov@mailbox.org>")
+    print("    " + Fore.YELLOW + "Author: " + Style.RESET_ALL + "Mahama Bazarov, <mahamabazarov@mailbox.org>")
     print("    " + Fore.YELLOW + "Alias: " + Style.RESET_ALL + "Caster")
     print("    " + Fore.YELLOW + "Version: " + Style.RESET_ALL + "1.0")
     print("    " + Fore.YELLOW + "Documentation & Usage: " + Style.RESET_ALL + "https://github.com/caster0x00/Ibex\n")
@@ -59,7 +59,7 @@ class IbexShell(Cmd):
     def do_exit(self, arg): return True
 
     def do_about(self, arg):
-        print("Ibex by Magama Bazarov aka Caster")
+        print("Ibex by Mahama Bazarov aka Caster")
         print("GitHub: https://github.com/caster0x00/Ibex")
         print("Version: 1.0")
 

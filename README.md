@@ -8,7 +8,7 @@ Interactive IPv6 toolkit for pentesting IPv6 networks
 
 Ibex - is an interactive IPv6 toolkit for attacking IPv6 networks. It performs attacks using RA Spoofing and RDNSS Spoofing, and also features automatic NAT64/DNS64 configuration and is equipped with auto-tuning and intelligent CLI navigation.
 ```
-Author: Magama Bazarov, <magamabazarov@mailbox.org>
+Author: Mahama Bazarov, <mahamabazarov@mailbox.org>
 Alias: Caster
 Version: 1.0
 ```
@@ -191,7 +191,7 @@ This will launch the interactive shell:
      |_____|_.__/ \___/_/\_\
     
     Ibex: Pwning IPv6 Networks
-    Author: Magama Bazarov, <magamabazarov@mailbox.org>
+    Author: Mahama Bazarov, <mahamabazarov@mailbox.org>
     Alias: Caster
     Version: 1.0
     Documentation & Usage: https://github.com/caster0x00/Ibex
@@ -941,10 +941,10 @@ This traffic pattern shows:
 
 # Copyright
 
-© 2025 Magama Bazarov, <magamabazarov@mailbox.org>
+© 2025 Mahama Bazarov, <mahamabazarov@mailbox.org>
 
 This project is licensed under the **MIT License**
 
 All rights reserved.
-Original design and development by Magama Bazarov.
+Original design and development by Mahama Bazarov.
 
