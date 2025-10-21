@@ -43,22 +43,6 @@ By using Ibex, you acknowledge that:
 - Interactive shell for each module with autocompletion;
 - DNS64 Relay for redirecting traffic to any server
 
-## Ibex vs [mitm6](https://github.com/dirkjanm/mitm6)
-
-| Feature                      | Ibex                  | mitm6            |
-| ---------------------------- | --------------------- | ---------------- |
-| Protocol                     | ICMPv6 (RA, SLAAC)    | DHCPv6           |
-| DNS Spoofing Method          | RDNSS (RFC 8106)      | DHCPv6 Option 23 |
-| Works if DHCPv6 is disabled? | Yes                   | No               |
-| NAT64 + DNS64 Support        | Yes                   | No               |
-| RA Guard Evasion             | Yes (HBH)             | No               |
-| DNS Manipulation             | Relay to any server   | Spoofing         |
-| Compatibility                | Windows, Linux, macOS | Windows          |
-| RA timings adjustment        | Yes                   | No               |
-| Automatic tuning and routing | Yes                   | No               |
-| One-shot killswitch          | Yes                   | No               |
-| Dependency auto-installer    | Yes                   | No               |
-
 # Architecture Overview
 
 Ibex is built as a modular shell for attacks, in which each functional component represents a separate isolated subsystem. All modules work through interactive command line shells, providing real-time feedback, autocompletion, and strict control over execution.
